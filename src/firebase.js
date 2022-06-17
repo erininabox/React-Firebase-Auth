@@ -13,3 +13,7 @@ const app = firebase.initializeApp({
 
 export const auth = app.auth()
 export default app
+
+/* 
+This pulls values from the local ENV file that correspond to the dev environment variables. Those should get changed to the separate production environment variables when we push this to prod.
+*/
